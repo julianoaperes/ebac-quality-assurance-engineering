@@ -1,13 +1,16 @@
 {
   "name": "ebac-quality-assurance-engineering",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "cy": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "commit": "cz"
+    "commit": "cz",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --write"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +18,12 @@
   "devDependencies": {
     "commitizen": "^4.3.1",
     "cypress": "^15.10.0",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^10.0.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-cypress": "^6.1.0",
+    "eslint-plugin-prettier": "^5.5.5",
+    "prettier": "^3.8.1"
   },
   "config": {
     "commitizen": {

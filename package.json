@@ -1,6 +1,6 @@
 {
   "name": "ebac-quality-assurance-engineering",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,11 @@
     "commit": "cz",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "format": "prettier . --write"
+    "format": "prettier . --write",
+    "release": "standard-version",
+    "release:patch": "standard-version --release-as patch",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +27,8 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-cypress": "^6.1.0",
     "eslint-plugin-prettier": "^5.5.5",
-    "prettier": "^3.8.1"
+    "prettier": "^3.8.1",
+    "standard-version": "^9.5.0"
   },
   "config": {
     "commitizen": {

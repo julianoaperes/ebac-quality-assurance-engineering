@@ -1,12 +1,12 @@
-## Data
+## Task:
 
-- mm/dd/aaaa
+## Feature
+
+## Version: "1.0.1"
+
+## Data: 02/21/2026
 
 ## Summary
 
-- What:
-- Why:<!-- What and why -->
-
-## Changes
-
-- Link da PR:
+- What: PR description adjustments
+- Why: To create a pattern

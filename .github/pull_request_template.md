@@ -1,11 +1,13 @@
-## Data
+## Infos
 
-- mm/dd/aaaa
+- Version: "1.0.1"
+
+- Data: 02/21/2026
 
 ## Summary
 
-- What:
-- Why:<!-- What and why -->
+- What: PR description adjustments
+- Why: To create a pattern
 
 ## Changes
 

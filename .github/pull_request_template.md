@@ -1,12 +1,10 @@
-## Data
+## Date
 
 - 02/21/2026
 
-## Summary
+## Fix
 
-- What: Code-quality-baseline-lint/format
-- Why: To create a pattern
+## Task
 
-## Chore
-
-- Link da PR:
+- Title:
+- Link:

@@ -1,12 +1,12 @@
 {
   "name": "ebac-quality-assurance-engineering",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "",
   "main": "index.js",
   "scripts": {
     "cy": "echo \"Error: no test specified\" && exit 1",
-    "cy:open": "cypress open",
-    "cy:run": "cypress run",
+    "cy:open": "dotenv -- cypress open",
+    "cy:run": "dotenv -- cypress run",
     "commit": "cz",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -18,11 +18,7 @@
     "cy:run:local": "CYPRESS_baseUrl=http://localhost:3000 npm run cy:run",
     "cy:run:stg": "CYPRESS_baseUrl=https://stg.example.com npm run cy:run",
     "cy:run:prod": "CYPRESS_baseUrl=https://www.example.com npm run cy:run",
-    "cy:open:local": "CYPRESS_baseUrl=http://localhost:3000 npm run cy:open",
-    "cy:open": "dotenv -- cypress open",
-    "cy:run": "dotenv -- cypress run",
-    "cy:run:stg": "CYPRESS_baseUrl=https://stg.example.com npm run cy:run",
-    "cy:run:prod": "CYPRESS_baseUrl=https://www.example.com npm run cy:run"
+    "cy:open:local": "CYPRESS_baseUrl=http://localhost:3000 npm run cy:open"
   },
   "keywords": [],
   "author": "",
